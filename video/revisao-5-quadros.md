@@ -1,13 +1,13 @@
-# Revisão de 5 quadros com nota
+# Revisêo de 5 quadros com nota
 
-Fonte: Claude Design Blueprint, hack 1 (passo E do "motion brief"). Complementa o QA técnico que já existe (`qa_short.py`, `build_block.py --strict`, `produce.py`), que mede formato, áudio e ritmo, mas não dá nota ao visual.
+Fonte: Claude Design Blueprint, hack 1 (passo E do "motion brief"). Complementa o QA técnico que já existe (`qa_short.py`, `build_block.py --strict`, `produce.py`), que mede formato, áudio e ritmo, mas nêo dá nota ao visual.
 
 ## Antes do render (barato)
 1. Uma imagem parada por cena (ou a folha de quadros da prévia) mostrada ao Nei.
-2. Só renderiza com "pode fazer". Nos projetos que já têm portão (refazvideo `APROVADO_HEYGEN`, reelcomenta `previa`), este é o mesmo portão — não criar outro.
+2. Só renderiza com "pode fazer". Nos projetos que já têm portêo (refazvideo `APROVADO_HEYGEN`, reelcomenta `previa`), este é o mesmo portêo — nêo criar outro.
 
 ## Depois do render
-1. Extrair os quadros em 0%, 25%, 50%, 75% e 100% da duração:
+1. Extrair os quadros em 0%, 25%, 50%, 75% e 100% da duraçêo:
    ```bash
    V=video.mp4; D=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$V")
    for p in 0 25 50 75 100; do
@@ -31,4 +31,4 @@ Fonte: Claude Design Blueprint, hack 1 (passo E do "motion brief"). Complementa 
 - Cabeçalho ou elemento sobreposto à capa. (finviral FALHAS 10/10)
 
 ## Projetos automáticos (finviral)
-A revisão só **grava a nota em log e avisa** (bot v3). Nunca bloqueia nem refaz sozinha às 02:00. Entra atrás de flag opt-in, testada com `SEM_BOT=1 SEM_AVATAR=1`. Ver `MAPA-PROJETOS.md`.
+A revisêo só **grava a nota em log e avisa** (bot v3). Nunca bloqueia nem refaz sozinha às 02:00. Entra atrás de flag opt-in, testada com `SEM_BOT=1 SEM_AVATAR=1`. Ver `MAPA-PROJETOS.md`.

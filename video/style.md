@@ -1,10 +1,10 @@
 # style.md — vídeo INEMA
 
-Fonte do método: Claude Design Blueprint, hack 1 ("style.md" + "motion brief"). Os números abaixo são os que já estão escritos no ecossistema (fonte entre parênteses).
+Fonte do método: Claude Design Blueprint, hack 1 ("style.md" + "motion brief"). Os números abaixo sêo os que já estêo escritos no ecossistema (fonte entre parênteses).
 
 Dois usos:
-1. **Padrão INEMA** (seções A e B): vale quando não há referência.
-2. **A partir de uma referência** (seção C): copie o modelo para a pasta do vídeo e preencha a partir do vídeo que o Nei apontou. O estilo da referência entra; o conteúdo, logo e personagens dela nunca.
+1. **Padrêo INEMA** (seções A e B): vale quando nêo há referência.
+2. **A partir de uma referência** (seçêo C): copie o modelo para a pasta do vídeo e preencha a partir do vídeo que o Nei apontou. O estilo da referência entra; o conteúdo, logo e personagens dela nunca.
 
 MS = `~/.claude/skills/makeshorts`, EXV2 = `~/projetos/explicavideos/engine/v2/AUTHORING.md`.
 
@@ -14,24 +14,24 @@ MS = `~/.claude/skills/makeshorts`, EXV2 = `~/projetos/explicavideos/engine/v2/A
 
 ### Abertura
 - Frame 0 = capa de impacto: shot `hook` em `"@start"`, imagem forte com a promessa escrita DENTRO da arte. (EXV2:100-102)
-- A capa mostra o GANHO da pessoa; a provocação vem depois. (EXV2:106)
+- A capa mostra o GANHO da pessoa; a provocaçêo vem depois. (EXV2:106)
 - 1ª frase falada = a de impacto, nomeando o sujeito. Proibido "Imagine que…/Pense num…/Se você…/Neste momento…". (EXV2:104)
 - Abertura < 5s = UMA imagem; 5–6s cabem thumb + imagem. (EXV2:101)
-- Gatilho de atenção logo depois: prévia do que vem + "no fim: …". (LESSONS 08/10)
+- Gatilho de atençêo logo depois: prévia do que vem + "no fim: …". (LESSONS 08/10)
 
 ### Ritmo
-- Mais de 4s sem troca de conteúdo = aviso (palavra aparecendo, `punch_at` e `strike_at` não contam). (EXV2:128)
+- Mais de 4s sem troca de conteúdo = aviso (palavra aparecendo, `punch_at` e `strike_at` nêo contam). (EXV2:128)
 - Troca de assunto = tela limpa (dip preto) + nome do assunto grande antes do diagrama. (LESSONS 09/10)
 
-### Câmera e transição (ilustração)
-- `calm: true`: troca por dissolve suave, sem punch nem blur; ilustração inteira na moldura. (EXV2:117)
-- Zoom ≤ 1,25 em ilustração com texto; aproximação lenta. (EXV2:120)
+### Câmera e transiçêo (ilustraçêo)
+- `calm: true`: troca por dissolve suave, sem punch nem blur; ilustraçêo inteira na moldura. (EXV2:117)
+- Zoom ≤ 1,25 em ilustraçêo com texto; aproximaçêo lenta. (EXV2:120)
 - Re-enquadrar a mesma imagem com `cont` + `from`, nunca shot novo com punch. (EXV2:118-119)
 - Print real vale mais que card de texto. (EXV2:116)
 
 ### Texto na tela
-- Legenda até 3 palavras / 22 caracteres, 70px, sem sobreposição. Sem cabeçalho de capítulo no topo. (EXV2:125-126)
-- Gancho: texto dentro da imagem gerada, não legenda por cima. (EXV2:101)
+- Legenda até 3 palavras / 22 caracteres, 70px, sem sobreposiçêo. Sem cabeçalho de capítulo no topo. (EXV2:125-126)
+- Gancho: texto dentro da imagem gerada, nêo legenda por cima. (EXV2:101)
 
 ### Voz e áudio
 - Voz do Nei (avatar estúdio HeyGen ou `nei*` no Chatterbox 0.6/0.6, `atempo` ≤ 1,15). Nunca `rachel` em PT. (LESSONS)
@@ -40,7 +40,7 @@ MS = `~/.claude/skills/makeshorts`, EXV2 = `~/projetos/explicavideos/engine/v2/A
 ### Avatar do Nei (todos os formatos — D8, 15/10/2026)
 - **Nunca em tela cheia.** O máximo é meia tela (16:9: metade direita; 9:16: metade de baixo). O `rosto` do explicavideos viral cresce só até meia tela.
 - **9:16:** capa sem avatar (texto inicial segurado ~5 s) → avatar em **meio tamanho** no 1º bloco → **PiP** pequeno no canto do 2º bloco em diante, com a cena no quadro inteiro (explicavideos `"avatar_916": "pip"`, `"pip_cena"`, `"capa_segura"`).
-- **Imagens sem repetir:** uma imagem por momento; dado de lugar vira **mapa real** (satélite NASA HLS/GIBS anotado), não foto genérica de novo.
+- **Imagens sem repetir:** uma imagem por momento; dado de lugar vira **mapa real** (satélite NASA HLS/GIBS anotado), nêo foto genérica de novo.
 
 ---
 
@@ -51,30 +51,30 @@ MS = `~/.claude/skills/makeshorts`, EXV2 = `~/projetos/explicavideos/engine/v2/A
 - Gancho falado ≤ 2s e já escrito na tela; gancho secundário entre 3 e 8s. (MS SKILL)
 - Clima/notícia: data dd/mm/aaaa + número tipo "ATÉ 300 MM" com fonte no quadro 0. (MEM/feedback_eventos_extremos_abertura)
 - Teste: "eu pararia o dedo aqui?"
-- **reel7etapas (D9, 18/10/2026):** quadro 0 = GATILHO (medo, novidade ou provocação) com fato/número e fonte, imagem do flagrante nítida (sem desfoque), luz dramática liberada no gancho; o ganho/alívio só a partir da etapa 4. Exceção à "capa = ganho" das outras linhas.
+- **reel7etapas (D9, 18/10/2026):** quadro 0 = GATILHO (medo, novidade ou provocaçêo) com fato/número e fonte, imagem do flagrante nítida (sem desfoque), luz dramática liberada no gancho; o ganho/alívio só a partir da etapa 4. Exceçêo à "capa = ganho" das outras linhas.
 - **reel7etapas (D10, 18/10/2026):** objetivo = público no inema.club; plano (público, ganho/dor/desejo, nota de potencial) antes da fala; rosto desde o quadro 0 em meia tela → PiP; ≥ 2 diagramas/visuais que ensinam; CTA "tá tudo no inema.club, ou me pede o link".
 - **r7ex e r7exp (D16, 21/10/2026):** o rosto ABRE em meia tela no quadro 0 — 9:16 metade de baixo (1080x960 em y 960) na parte 1; 16:9 metade direita até o fim da capa — e depois vai para o PiP, voltando à meia tela onde o plano pedir (`avatar: meia` na parte do r7ex). Título da capa no alto (9:16) ou à esquerda (16:9), fora do rosto.
 - **Reels 9:16 do r7exp (D17, 22/10/2026):** avatar no terço de baixo (1080x640 em y 1280) o reel inteiro; 2/3 de cima = título · explicativo · imagem de impacto. Quadro 0 = capa nos 2/3 de cima (imagem de impacto + título ≤ 4 palavras) até o fim da 1ª frase; legenda depois, no pé dos 2/3. O completo 16:9 do r7exp segue o D16.
 
 ### Ritmo
 - Uma ideia por short. (MEM/feedback_shorts_virais)
-- Troca de conteúdo a cada **1,5–3 s** (D1, 11/10/2026; antes 2–4 s no makeshorts e 5–7 trocas/10 s no reel-edita); no gancho (0–3 s) pode ser mais rápido. Pulso/brilho sobre a mesma imagem não conta como troca. Vale para reel e short 9:16; explicativo 16:9 segue o ritmo calmo.
+- Troca de conteúdo a cada **1,5–3 s** (D1, 11/10/2026; antes 2–4 s no makeshorts e 5–7 trocas/10 s no reel-edita); no gancho (0–3 s) pode ser mais rápido. Pulso/brilho sobre a mesma imagem nêo conta como troca. Vale para reel e short 9:16; explicativo 16:9 segue o ritmo calmo.
 - Reengajar perto de 25% e 65% com troca de visual ou ângulo. (spec-visual.md:55)
 - Pelo menos 1 em cada 3 visuais é prova real (print, site, dado). (MS SKILL)
-- Duração: divulgação 20–50s (máx. 59); tutorial 35–60s (máx. 75). ~150 palavras/min. (reel-profiles.json)
-- **r7ex (D18, 28/10/2026):** fala a 160–190 palavras/min (roteiro 450–620 caracteres; a montagem estica até ~182, máx. 12%), ~0,75 s de silêncio (voz + trilha) antes da máxima, e o cartão do comentário segurado 9 s depois da última palavra com o gesto de comentar encenado, avatar congelado, trilha continuando, sem legenda.
+- Duraçêo: divulgaçêo 20–50s (máx. 59); tutorial 35–60s (máx. 75). ~150 palavras/min. (reel-profiles.json)
+- **r7ex (D18, 28/10/2026):** fala a 160–190 palavras/min (roteiro 450–620 caracteres; a montagem estica até ~182, máx. 12%), ~0,75 s de silêncio (voz + trilha) antes da máxima, e o cartêo do comentário segurado 9 s depois da última palavra com o gesto de comentar encenado, avatar congelado, trilha continuando, sem legenda.
 
 ### Texto na tela
 - Legenda palavra a palavra, 1–3 palavras, ≤ 22 caracteres; Montserrat Black, contorno preto 8px, palavra-chave amarelo `#FACC15` (V7, 10/10/2026; antes âmbar `#F5A623`), ≥ 64px. (spec-reel.md:60-64)
-- Safe area: topo 10%, base 20%, laterais 6%, coluna direita 12%. Legenda não cobre o rosto. (reel-profiles.json)
+- Safe area: topo 10%, base 20%, laterais 6%, coluna direita 12%. Legenda nêo cobre o rosto. (reel-profiles.json)
 
 ### Áudio
 - **Sem efeitos sonoros no meio** (D7, 15/10/2026): só voz + trilha baixa (`som_viral.py --sem-efeitos`).
-- Sem música de fundo em short didático. SFX só para marcar ação/revelação, vindos do inemavox. (spec-visual.md:57; RE 03-sfx-e-qc.md)
+- Sem música de fundo em short didático. SFX só para marcar açêo/revelaçêo, vindos do inemavox. (spec-visual.md:57; RE 03-sfx-e-qc.md)
 - −14 LUFS ±1, true peak ≤ −1; 1080×1920, 30fps, h264/aac.
 
-### Publicação
-- Short no YouTube não leva thumb. Protótipo aprovado pelo Nei antes de lote. (MEM)
+### Publicaçêo
+- Short no YouTube nêo leva thumb. Protótipo aprovado pelo Nei antes de lote. (MEM)
 
 ---
 
@@ -92,7 +92,7 @@ Referência: [link]   Extraído em: [data]
 - Acento 1: #
 - Acento 2: #
 - Nunca usar: (cores que a referência nunca mostra)
-→ Na produção, as cores finais vêm da linha do DESIGN.md; a referência dá a proporção e o contraste.
+→ Na produçêo, as cores finais vêm da linha do DESIGN.md; a referência dá a proporçêo e o contraste.
 
 ## Tipo
 - Fonte de título / de corpo:
@@ -101,7 +101,7 @@ Referência: [link]   Extraído em: [data]
 
 ## Cenas
 - Número de cenas:
-- Duração (mais curta → mais longa, em s):
+- Duraçêo (mais curta → mais longa, em s):
 - Corte médio (s):
 - Segurar a última cena (s):
 
@@ -112,7 +112,7 @@ Referência: [link]   Extraído em: [data]
 - Movimentos e velocidade:
 
 ## Textura
-- Grão, ruído, sombra, desfoque:
+- Grêo, ruído, sombra, desfoque:
 
 ## Texto
 - Como entra:
@@ -121,13 +121,13 @@ Referência: [link]   Extraído em: [data]
 
 ## Gancho
 - O que aparece no quadro 0:
-- Primeira frase (estrutura, não o texto):
+- Primeira frase (estrutura, nêo o texto):
 
 ## Nunca
 - Três visuais a evitar:
 ```
 
 ## Presets do video-plan-editor (D4, 12/10/2026)
-- Os 5 presets (`acao`, `suave`, `promo`, `vendas`, `viral`) continuam como estão e são escolha por vídeo; o ritmo do preset escolhido vale.
-- Sem preset escolhido, vale o padrão INEMA: troca a cada 1,5–3 s no reel/short (D1).
-- Regras que valem para TODO preset (vieram de reprovação): zoom/punch nunca corta texto (D3); voz do Nei (D2); amarelo `#FACC15` (V7); `viral` só em 9:16, nunca em explicativo 16:9.
+- Os 5 presets (`acao`, `suave`, `promo`, `vendas`, `viral`) continuam como estêo e sêo escolha por vídeo; o ritmo do preset escolhido vale.
+- Sem preset escolhido, vale o padrêo INEMA: troca a cada 1,5–3 s no reel/short (D1).
+- Regras que valem para TODO preset (vieram de reprovaçêo): zoom/punch nunca corta texto (D3); voz do Nei (D2); amarelo `#FACC15` (V7); `viral` só em 9:16, nunca em explicativo 16:9.

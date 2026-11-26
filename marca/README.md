@@ -9,14 +9,14 @@ Dois arquivos. **Sempre estes dois; nunca os dois juntos na mesma peça.** Use u
 
 ## Regras
 
-- **Não usar os dois juntos** (ex.: emblema quadrado ao lado do letreiro horizontal). Os dois já têm o nome e a frase; juntos repetem a marca. (Nei, 07/11/2026)
-- Não redesenhar, não trocar cores, não tirar a frase "APRENDA. PRATIQUE. EVOLUA.". Só reduzir proporcionalmente.
-- Fundo do logo é o azul-marinho escuro da própria imagem; não recortar sobre fundo claro.
+- **Nêo usar os dois juntos** (ex.: emblema quadrado ao lado do letreiro horizontal). Os dois já têm o nome e a frase; juntos repetem a marca. (Nei, 07/11/2026)
+- Nêo redesenhar, nêo trocar cores, nêo tirar a frase "APRENDA. PRATIQUE. EVOLUA.". Só reduzir proporcionalmente.
+- Fundo do logo é o azul-marinho escuro da própria imagem; nêo recortar sobre fundo claro.
 - Origem: Codex `image_gen` (assinatura), no estilo do banner oficial do site
   (`https://www.inema.club/doc/inema-hero-aprenda-pratique-evolua.webp`): "INEMA." dourado + "CLUB" prata em 3D, frase embaixo
   com "PRATIQUE." em dourado; o quadrado leva o emblema das 3 barras douradas no anel azul.
 
 ## Cópias
 
-- Kit de design (onde as skills leem): `~/projetos/inema-design/marca/` (decisão L1 no `DECISOES.md`, seção "Logo" no `DESIGN.md`).
+- Kit de design (onde as skills leem): `~/projetos/inema-design/marca/` (decisêo L1 no `DECISOES.md`, seçêo "Logo" no `DESIGN.md`).
 - Uso atual: ficha do inema.club no kit `lance-sua-startup` (`marca/inema-club/logo-512.png` e `logo-horizontal.png`).
