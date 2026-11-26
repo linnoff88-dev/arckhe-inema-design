@@ -1,9 +1,9 @@
 # Palavras de câmera (com número)
 
 Fonte: Claude Design Blueprint, hack 1 — "Camera words". Use estas palavras no roteiro/plano de cena SEMPRE com número. "Deixa bonito" nêo é direçêo.
-Os limites INEMA (coluna da direita) vêm do que o Nei aprovou/reprovou e valem acima da sugestêo do Blueprint.
+Os limites ARCKHÉ (coluna da direita) vêm do que o Nei aprovou/reprovou e valem acima da sugestêo do Blueprint.
 
-| Palavra | O que é | Como pedir | Limite INEMA |
+| Palavra | O que é | Como pedir | Limite ARCKHÉ |
 |---|---|---|---|
 | **Push in** (aproximar) | câmera chega perto | "push in 8% em 3s" | ilustraçêo com texto: zoom final ≤ 1,25 (EXV2:120) |
 | **Pull back** (afastar) | câmera se afasta e mostra mais | "pull back de 1,2 para 1,0 em 4s" | — |

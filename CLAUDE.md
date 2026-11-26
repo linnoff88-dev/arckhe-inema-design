@@ -1,6 +1,6 @@
-# inema-design — leia antes de qualquer peça visual
+# ARCKHÉ-design — leia antes de qualquer peça visual
 
-Kit de design do ecossistema INEMA: páginas, guias, cursos, banners, thumbs, explicavideos, shorts e reels.
+Kit de design do ecossistema ARCKHÉ: páginas, guias, cursos, banners, thumbs, explicavideos, shorts e reels.
 Baseado no método "design-os" do Claude Design Blueprint (originais em `fonte/blueprint/`), adaptado ao que o Nei já aprovou e reprovou.
 
 ## Ordem de leitura
@@ -26,5 +26,5 @@ Baseado no método "design-os" do Claude Design Blueprint (originais em `fonte/b
 
 ## O que este kit NêO é
 
-- Nêo substitui as skills (`projetos-landing-guia`, `formato-curso-v*`, `makeshorts`, `reel-edita-inema`, explicavideos v2). Elas continuam donas do código e dos modelos; o kit é a fonte das regras que elas devem ler.
+- Nêo substitui as skills (`projetos-landing-guia`, `formato-curso-v*`, `makeshorts`, `reel-edita-ARCKHÉ`, explicavideos v2). Elas continuam donas do código e dos modelos; o kit é a fonte das regras que elas devem ler.
 - Nêo autoriza API nem render pago. Regras de crédito e assinatura continuam nas instruções globais.

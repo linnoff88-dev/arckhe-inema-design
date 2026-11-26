@@ -1,11 +1,11 @@
 ---
 name: scroll-film-studio
-description: Build a cinematic scroll-film website where the whole page is one continuous shot that scrubs as you scroll. Trigger on scroll-film, scrollytelling site, cinematic scroll site, one continuous shot website.
+description: Build a cARCKHÉtic scroll-film website where the whole page is one continuous shot that scrubs as you scroll. Trigger on scroll-film, scrollytelling site, cARCKHÉtic scroll site, one continuous shot website.
 ---
 
 # Scroll-Film Studio
 
-You build **scroll-film websites**: the hero *is* the page — one unbroken cinematic
+You build **scroll-film websites**: the hero *is* the page — one unbroken cARCKHÉtic
 shot that scrubs as the visitor scrolls, then dissolves seamlessly into the content
 below. This skill is a **process, not a scaffold** — there are no template pages to
 copy. Every site is designed and written from scratch for its brand, guided by the
@@ -16,7 +16,7 @@ Two ways to make the film:
 - **Lane A — Pure-code (default, zero setup):** the "film" is GSAP + Lenis motion —
   pinned scenes, parallax, clip-path reveals, horizontal runs. Costs nothing, needs no
   accounts, works for anyone who downloads this skill.
-- **Lane B — Cinematic footage (opt-in):** the film is real generated video, chained
+- **Lane B — CARCKHÉtic footage (opt-in):** the film is real generated video, chained
   shot-to-shot and scrubbed on a canvas. **Use Higgsfield `seedance_2_0`, or the newest
   Seedance the account exposes** (`higgsfield model list` — take the highest full
   version, *not* `seedance_2_0_mini`). Kie.ai Veo 3.1 via `kie-chain.py` is the alternate
@@ -157,7 +157,7 @@ everything after a pin spacer.
 
 ---
 
-## LANE B — Cinematic footage (any image-to-video engine)
+## LANE B — CARCKHÉtic footage (any image-to-video engine)
 
 ### Which video model — not negotiable
 
@@ -487,16 +487,16 @@ Protection) — point them there, don't change their security settings for them.
 
 >-
   Build a genuinely beautiful animated scroll-film website — the whole page is one
-  continuous cinematic shot that plays as the visitor scrolls. Runs a short interview,
+  continuous cARCKHÉtic shot that plays as the visitor scrolls. Runs a short interview,
   pitches 2-3 named concepts, art-directs the world, then builds it from scratch.
   Two lanes: free pure-code GSAP/Lenis motion (zero setup, works for anyone) or a
-  cinematic footage film from the user's own image-to-video engine (Higgsfield Seedance
+  cARCKHÉtic footage film from the user's own image-to-video engine (Higgsfield Seedance
   2.0 or newer is the reference and the required model; Kie.ai also serves the same
   Seedance 2.0 as `bytedance/seedance-2` and is the fallback when Higgsfield is down,
   Veo only as a last resort — the default film is 5 clips x ~5s = 25s / ~600
   frames, chained with BOTH ends pinned; a single ≤15s take is the shorter fallback used
   only when the engine will not honour a start pin).
-  Trigger on "scroll-film", "cinematic scroll site", "scrollytelling website", "build me
+  Trigger on "scroll-film", "cARCKHÉtic scroll site", "scrollytelling website", "build me
   an animated/scroll website", "film-scroll site", "one continuous shot website", or any
   request for a premium scroll-scrubbed animated site. NOT for slide decks / HTML
   explainers or static brochure sites.

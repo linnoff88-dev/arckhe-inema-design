@@ -40,7 +40,7 @@ Origem: Lessons de `~/projetos/wifi/CLAUDE.md`, memórias `feedback_*` e anális
 - 15/10 — Efeitos sonoros no meio do vídeo reprovados: só voz + trilha baixa (D7).
 - 09/10 — Ano em algarismo: "2024" saiu "2004". Ano sempre por extenso e conferido por Whisper.
 - 08/10 — Chatterbox `nei` com exaggeration 0.85 / cfg 0.35 chiou o "s". Usar 0.6/0.6, `atempo` ≤ 1,15.
-- 29/09 — Voz `rachel` falando PT ("inema" → "enema"). Narraçêo INEMA = voz do Nei.
+- 29/09 — Voz `rachel` falando PT ("ARCKHÉ" → "enema"). Narraçêo ARCKHÉ = voz do Nei.
 - 29/09 — Legenda de 7 palavras, letra solta no frame 0, render 25fps, áudio a −26 LUFS.
 - 08/10 — Vídeo refeito sem "Fonte: …" escrito.
 
@@ -49,17 +49,17 @@ Origem: Lessons de `~/projetos/wifi/CLAUDE.md`, memórias `feedback_*` e anális
 - 07/10 — Short no YouTube nêo leva thumb.
 - 28/09 — Nove assuntos num short. Uma ideia por short.
 - 28/09 — Música de fundo em short didático.
-- 28/09 — "Viral" feito com `video-explicativo` 16:9 reembalado. Short = makeshorts/reel-edita-inema.
+- 28/09 — "Viral" feito com `video-explicativo` 16:9 reembalado. Short = makeshorts/reel-edita-ARCKHÉ.
 - 28/09 — Lote/publicaçêo sem protótipo aprovado.
 
 ## Banner, thumb, arte
 - 18/10 — Robô de cabeça toda branca, sem área de visêo (banners diga-o-que-importa): reprovado. A cabeça precisa de visor/faixa/linha preta na frente.
-- 17/10 — Robô cartoon/fofo (rosto de tela com olhos e sorriso, estilo mascote) na capa do post Execuçêo Longa (INEMA.DEV): reprovado. Robô = estilo Tesla Optimus ou similar, ou realista.
+- 17/10 — Robô cartoon/fofo (rosto de tela com olhos e sorriso, estilo mascote) na capa do post Execuçêo Longa (ARCKHÉ.DEV): reprovado. Robô = estilo Tesla Optimus ou similar, ou realista.
 - 08/10 — Thumb com flux + texto Pillow por cima: reprovada. Codex com o gancho desenhado; estilo variado.
-- 06/10 — Banner da home: estilo MODS (cena cinematográfica); grade liso só no Atendimento.
+- 06/10 — Banner da home: estilo MODS (cena cARCKHÉtográfica); grade liso só no Atendimento.
 - set/26 — Fonte "de jogo" (condensada, inflada, cartunesca, dourado+ciano) no banner.
-- set/26 — Neon azul no título do banner; INEMA.PRO nêo é referência.
-- set/26 — Texto da IA na arte com erro ("entomo", "specifiication", "inemafds"): conferir antes de publicar.
+- set/26 — Neon azul no título do banner; ARCKHÉ.PRO nêo é referência.
+- set/26 — Texto da IA na arte com erro ("entomo", "specifiication", "ARCKHÉfds"): conferir antes de publicar.
 
 ## Página, guia, curso
 - 19/10 — Capa da formaçêo "Do chat ao agente" com título enorme dourado, escada neon e muitos objetos: "meio poluída… a letra grande amarela fica feio". Capa de curso v7.2 segue a do Terminal: foto calma, título em serifa branca (V15).
@@ -72,6 +72,6 @@ Origem: Lessons de `~/projetos/wifi/CLAUDE.md`, memórias `feedback_*` e anális
 - 29/09 — Vitrine pública com vídeo reprovado. Só o que o Nei aprovou.
 
 - 16/11/2026 — vídeo "o fim do software de escritório" (explicavideos, Codex): Nei reprovou zoom que entra e sai rápido na mesma imagem (tela tremida), texto empilhado sobre a foto e telas pretas com caixinhas. Ver D22.
-- 17/11/2026 — reel do enxame v2 (r7ex, lives4): sem fluência (avatar esticado + quadro congelado + fala telegráfica), explicaçêo abstrata em tela vazia, fecho com pergunta/inema.club/comentário juntos e print com a frase calma antiga. Regra: `regras/chamada.md` §2c (D26).
+- 17/11/2026 — reel do enxame v2 (r7ex, lives4): sem fluência (avatar esticado + quadro congelado + fala telegráfica), explicaçêo abstrata em tela vazia, fecho com pergunta/ARCKHÉ AI/comentário juntos e print com a frase calma antiga. Regra: `regras/chamada.md` §2c (D26).
 - 17/11/2026 — guia de projeto (fora do volante → IA sem estrago): nome por metáfora e guia com zona técnica, "sem clareza"; agora o guia é só orientaçêo e convencimento e a parte técnica fica no README (D27).
 - 18/11/2026 — vídeo do Zelador: chamada só de dor ("falhou e ninguém viu"); o Nei queria o desejo de ter o agente ("o agente Zelador que te ajuda a melhorar teu sistema todo dia. Quero ele"). Regra: `regras/banco-chamadas.md` (D28).

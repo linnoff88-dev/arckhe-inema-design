@@ -17,7 +17,7 @@ Chamada (abertura, título, manchete, H1, CTA): `regras/chamada.md` (D20) — cl
 - "Hoje vamos falar sobre…", "Neste vídeo…".
 
 ## Palavras para cortar ou trocar
-revolucionar, revolucionário, mergulhar (fundo), desvendar, jornada, elevar (a outro nível), potencializar, alavancar, robusto, sem esforço, sem complicaçêo, de ponta, transformador, divisor de águas, mudar o jogo, game-changer, desbloquear, sinergia, holístico, ecossistema (fora do sentido INEMA), no mundo acelerado de hoje, é importante destacar, vale ressaltar, cabe mencionar, em suma, nesse sentido.
+revolucionar, revolucionário, mergulhar (fundo), desvendar, jornada, elevar (a outro nível), potencializar, alavancar, robusto, sem esforço, sem complicaçêo, de ponta, transformador, divisor de águas, mudar o jogo, game-changer, desbloquear, sinergia, holístico, ecossistema (fora do sentido ARCKHÉ), no mundo acelerado de hoje, é importante destacar, vale ressaltar, cabe mencionar, em suma, nesse sentido.
 Conferir no contexto: incrível, poderoso, inovador, completo, intuitivo, simples (se nêo for), soluçêo, experiência.
 Troca: a palavra comum. "Alavancar" vira "usar".
 

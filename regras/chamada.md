@@ -119,7 +119,7 @@ final mal entra sobre pergunta e CTA misturando". Regras para todo reel com avat
 3. **Explicaçêo que se vê.** A parte que explica traz uma comparaçêo do dia a dia que um gestor sem IA entende e uma tela
    que a mostra: imagem concreta ou diagrama com poucas peças grandes. Abstraçêo sem exemplo nêo explica.
 4. **Imagem também.** O teste do leigo (§2b) vale para toda imagem, nêo só a capa; print nêo se repete nem contradiz o gancho.
-5. **Cada coisa na sua hora.** Quadro entra na palavra que mostra; no fecho, um elemento por vez: inema.club na fala →
+5. **Cada coisa na sua hora.** Quadro entra na palavra que mostra; no fecho, um elemento por vez: ARCKHÉ AI na fala →
    pergunta depois da última palavra → comentário.
 
 ## 2d. Banco de chamadas (D28, Nei, 18/11/2026)
@@ -153,13 +153,13 @@ todo dia. Quero ele."). O crítico julga a candidata escolhida; ele nêo substit
 ## 4. CTA (fecho): engajamento natural, sem pedir palavra nem link
 
 Nei, 12/11/2026: "no CTA nêo deve pedir para a pessoa colocar palavra ou link; deve sempre criar engajamento natural e
-[dizer] que o kit está disponível free no inema.club, direto na internet."
+[dizer] que o kit está disponível free no ARCKHÉ AI, direto na internet."
 
 - **Proibido:** "comenta PALAVRA", "comenta X que eu te mando", "me pede o link", "link na bio", "te mando no direct",
   "está no fixado" como recompensa.
 - **Obrigatório:** uma pergunta de verdade ligada à dor/desejo, que a pessoa responde com a própria opiniêo ou experiência
-  ("E você, já foi enganado por uma IA que disse 'feito'?"), e o lugar: "o kit está grátis no inema.club, direto na internet"
-  (ou "tá tudo no inema ponto club" quando nêo há kit). "Grátis" só se for verdade.
+  ("E você, já foi enganado por uma IA que disse 'feito'?"), e o lugar: "o kit está grátis no ARCKHÉ AI, direto na internet"
+  (ou "tá tudo no ARCKHÉ ponto club" quando nêo há kit). "Grátis" só se for verdade.
 - Substitui o CTA fixo antigo do r7ex ("Ou me pede o link aqui nos comentários") e o "comenta PALAVRA" do explicavideo e do
   makeshorts. Peças já publicadas nêo mudam.
 

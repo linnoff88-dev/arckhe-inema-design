@@ -1,4 +1,4 @@
-# DESIGN.md — INEMA
+# DESIGN.md — ARCKHÉ
 
 Fonte do esqueleto: Claude Design Blueprint, hack 4 e 15 (formato DESIGN.md do Google Labs / Power Design, MIT).
 Todos os valores abaixo vêm de arquivos que já existem (fonte entre parênteses). Nada foi inventado.
@@ -11,7 +11,7 @@ Abreviações: SK = `~/.claude/skills`, MEM = memórias do projeto wifi, LESSONS
 ## 1. Núcleo comum (vale para tudo)
 
 ### Uma linha
-INEMA ensina IA na prática, de graça, para gente comum: conteúdo aberto (INEMA.CLUB), sem hype, com prova real e a voz do Nei.
+ARCKHÉ ensina IA na prática, de graça, para gente comum: conteúdo aberto (ARCKHÉ AI), sem hype, com prova real e a voz do Nei.
 
 ### Público
 - Cursos v5: 40+ leigo. Cursos v6: iniciante 30+. Guias: o leigo que quer saber como o projeto muda o dia dele. Guia = orientaçêo e convencimento (texto + visual), sem nada técnico; a instalaçêo técnica fica no README; "como começar" = colar um pedido para a IA (Claude Code ou Codex) analisar o projeto. (Nei, 17/11/2026; SK/projetos-landing-guia)
@@ -53,7 +53,7 @@ INEMA ensina IA na prática, de graça, para gente comum: conteúdo aberto (INEM
 - Título de toda página nova (guia e cursos v2/v5/v6): **Sora**. Corpo: **Inter**. Código: JetBrains Mono. Serifada nêo entra mais em título.
 - **Exceçêo (V14, 18/10/2026):** a linha Curso v7.2 usa **Fraunces** (serifa) nos títulos e o amarelo dourado `#E9B949`. Vale só para ela (seçêo 5b).
 
-### Amarelo INEMA `#FACC15` (V1 + V3, 10/10/2026)
+### Amarelo ARCKHÉ `#FACC15` (V1 + V3, 10/10/2026)
 - **Cor de marca única** de guia e de todo curso novo (v2, v5, v6). Menta, verde e ocre saem como acento.
 - **Fundo escuro:** o amarelo pode ser letra (destaque de título, link, rótulo) e fundo de botêo (letra `#1a1206`).
 - **Fundo claro (papel, modo claro):** o amarelo **nunca é letra**. Só preenchimento:
@@ -67,12 +67,12 @@ INEMA ensina IA na prática, de graça, para gente comum: conteúdo aberto (INEM
 - Capa, hero, cena de curso e thumb: Codex image_gen pela assinatura; flux2-klein é reserva. (MEM/feedback_capa_guia_codex; V6-DESIGN.md:93)
 - Texto da arte (gancho, thumb): desenhado DENTRO da imagem pelo Codex, nêo sobreposto. (MEM/feedback_thumb_viral_codex; LESSONS 08/10)
 - Capa do quadro 0 de reel (r7ex, rtex): cena CHOCANTE do Codex image_gen (o momento da perda/quebra ou o "depois"), manchete desenhada dentro; nunca anúncio calmo nem a soluçêo pronta. Prova `capa/abertura.codex.json` obrigatória: o render recusa sem ela. (D24, 17/11/2026)
-- Conferir o texto que a IA escreveu na imagem antes de publicar ("entomo", "specifiication", "inemafds" já passaram). (SKILL landing :302-303)
+- Conferir o texto que a IA escreveu na imagem antes de publicar ("entomo", "specifiication", "ARCKHÉfds" já passaram). (SKILL landing :302-303)
 - Fenômeno natural (tornado, ciclone): imagem realista + sobreposições finas, nunca SVG desenhado. (LESSONS 09/10)
 - Robô na arte (capa, thumb, banner, cena de vídeo): estilo Tesla Optimus ou similar (humanoide industrial, liso, acabamento fosco/metálico) ou robô realista fotográfico. Nunca robô fofo/cartoon, com rosto de tela e olhinhos/emoji, estilo mascote ou brinquedo. (V12, Nei 17/10/2026) A cabeça sempre tem uma área de visêo escura (visor preto, faixa ou linha preta na frente); cabeça toda branca, sem visêo, é reprovada (V13, Nei 18/10/2026).
 
-### Logo INEMA.club (L1, Nei 07/11/2026)
-Dois arquivos em `marca/`: `logo-inema-club-quadrado.png` (emblema das 3 barras douradas + INEMA.CLUB + "APRENDA. PRATIQUE. EVOLUA.") para lugar quadrado/pequeno, e `logo-inema-club-horizontal.png` (letreiro INEMA.CLUB 3D + frase) para lugar largo. **Sempre estes dois; nunca os dois juntos na mesma peça.** Nêo redesenhar nem trocar cor; só reduzir. Regras completas: `marca/README.md`.
+### Logo ARCKHÉ AI (L1, Nei 07/11/2026)
+Dois arquivos em `marca/`: `logo-ARCKHÉ-club-quadrado.png` (emblema das 3 barras douradas + ARCKHÉ AI + "APRENDA. PRATIQUE. EVOLUA.") para lugar quadrado/pequeno, e `logo-ARCKHÉ-club-horizontal.png` (letreiro ARCKHÉ AI 3D + frase) para lugar largo. **Sempre estes dois; nunca os dois juntos na mesma peça.** Nêo redesenhar nem trocar cor; só reduzir. Regras completas: `marca/README.md`.
 
 ### Lacunas conhecidas
 Sem raio/sombra e largura máxima definidos para o guia. Ver `DECISOES.md`.
@@ -93,7 +93,7 @@ Sem raio/sombra e largura máxima definidos para o guia. Ver `DECISOES.md`.
 | `--mut` | `#9a9aa6` | `#5b5b68` | texto secundário |
 | `--amb` | `#FACC15` | `#a16207` | acento único: botêo, destaque (V1, 10/10/2026; antes `#E2A23B`/`#b9791d`, que continua nos guias já publicados) |
 | `--amb2` | `#f0c070` | `#a16207` | acento claro |
-| `--sky` | `#38bdf8` | `#0369a1` | **só** o link INEMA.CLUB |
+| `--sky` | `#38bdf8` | `#0369a1` | **só** o link ARCKHÉ AI |
 | `--pro` | `#cbd5e1` | `#b45309` | selo PRO |
 
 - Botêo primário: fundo `--amb`, texto `#1a1206`, raio 10px. (template.html:57)
@@ -105,11 +105,11 @@ Sem raio/sombra e largura máxima definidos para o guia. Ver `DECISOES.md`.
 - Sempre PT + `guia/en/` + `guia/es/`.
 - **Ordem (V16, 12/11/2026):** entendimento em cima (resumo do assunto, vídeo, fontes, gráficos explicados, plano de açêo), depois o divisor `#tecnico` e a zona técnica com fundo `--bg2` (o kit, como funciona, pré-requisitos, guia de uso, números, roadmap). Nav: seções de entendimento + "Kit (técnico)". Nada de comando na parte de cima. (SK/projetos-landing-guia SKILL "Entendimento em cima")
 
-## 3. Linha Curso v2 ("inema-dark", Tailwind)
+## 3. Linha Curso v2 ("ARCKHÉ-dark", Tailwind)
 Dono: SK/formato-curso-v2 (SKILL.md, DESIGN-SYSTEM.md).
 - Fundo `#0c0c10`, superfície `#16161e`, borda `#272730` (V2, 10/10/2026: mesmo preto do guia; antes `#111827`/`#1f2937`/`#374151`, que continua nos cursos já publicados). Texto `#e6e6e6`, secundário `#a8a8b3`. (DS:319-324) Nunca `#000`/`#fff` puros. (DS:377)
 - Primária **amarela `#FACC15`** (logo, CTA, dica); no claro, texto `#a16207`. (SKILL:201) É a mesma cor do guia desde a V1 (10/10/2026).
-- Sky `#38bdf8` = link INEMA.CLUB e cor secundária dos SVG. (SKILL:202,205)
+- Sky `#38bdf8` = link ARCKHÉ AI e cor secundária dos SVG. (SKILL:202,205)
 - Cor por trilha: T1 emerald, T2 blue, T3 purple, T4 amber, T5 teal, T6 rose. (SKILL:188-195)
 - Temas: sépia `#FBF0D9`/`#5F4B32`; alto contraste `#0A0E14`/`#F5F7FA`; claro sem gradiente. (DS:306,378-381)
 - Fonte: títulos **Sora** (V4, 10/10/2026; antes Inter), corpo Inter. Botões à esquerda; numeraçêo em círculo; SVG futurista 1 por módulo. (SKILL:140-155,255)
@@ -140,8 +140,8 @@ Dono: SK/formato-curso-v6 (assets/aula.css, V6-DESIGN.md).
 - Coluna `.aula` 40rem; visual `.largo` até 54rem; gutter 16px; raio 14px; botêo pílula ≥ 40px de altura.
 - Cena ilustrada **sem texto dentro da imagem** (traduçêo é só HTML). Sem emoji.
 
-## 5b. Linha Curso v7.2 ("editorial cinematográfico", INEMA Learning v7)
-Dono: o gerador do próprio curso (`gerar.py` + `assets/v72.css`). Referência aprovada: `inematds/do-chat-ao-agente-v72` (https://inematds.github.io/do-chat-ao-agente-v72/). Aprovada pelo Nei em 18/10/2026 (V14).
+## 5b. Linha Curso v7.2 ("editorial cARCKHÉtográfico", ARCKHÉ Learning v7)
+Dono: o gerador do próprio curso (`gerar.py` + `assets/v72.css`). Referência aprovada: `linnoff88-dev/do-chat-ao-agente-v72` (https://linnoff88-dev.github.io/arckhe-/). Aprovada pelo Nei em 18/10/2026 (V14).
 | Token | Escuro (padrêo) | Papel (`html[data-tema="papel"]`) |
 |---|---|---|
 | `--bg` | `#1c1c1f` | `#F6F1E7` |
@@ -158,9 +158,9 @@ Dono: o gerador do próprio curso (`gerar.py` + `assets/v72.css`). Referência a
 - h1 da aula `clamp(40px,5.4vw,70px)/1.02`, -.025em; h2 de seçêo `clamp(30px,3.6vw,48px)/1.08`, -.02em.
 - Abertura com foto (Codex image_gen, sem texto) que funde no fundo; seções `01 · Título`; "Nesta aula" numerada sem caixas; diagrama sem cartões; rolagem guiada com o título da seçêo preso junto do diagrama (só desktop).
 - Página inicial: foto de abertura, números em serifa, aulas como lista editorial com foto e ✓ das feitas.
-- Topo padrêo v2 (curso | INEMA.CLUB - PRO; aulas + Aa; sol/lua ao lado do Aa). Barra lateral vira gaveta ☰. Largura até 1160px.
+- Topo padrêo v2 (curso | ARCKHÉ AI - PRO; aulas + Aa; sol/lua ao lado do Aa). Barra lateral vira gaveta ☰. Largura até 1160px.
 - og:image continua a capa com texto (`assets/img/capa.jpg`).
-- **Capa do curso v7.2 (V15, 19/10/2026):** padrêo = capa do Terminal (`do-chat-ao-agente-terminal-v72/assets/img/capa.jpg`): foto calma e escura, luz neutra, poucos objetos à direita, espaço vazio à esquerda; linha pequena em caixa alta cinza (`CURSO · DEGRAU N DE 4`), título em **serifa branca** em duas linhas, uma linha de apoio em sem serifa, `INEMA.CLUB` com o ponto amarelo. **Sem letra grande amarela/dourada, sem brilho, sem neon, sem ícones de redes.** Texto legível na tela do notebook só se for correto; na dúvida, tela desfocada. Codex image_gen com a capa do Terminal anexada como referência de estilo.
+- **Capa do curso v7.2 (V15, 19/10/2026):** padrêo = capa do Terminal (`do-chat-ao-agente-terminal-v72/assets/img/capa.jpg`): foto calma e escura, luz neutra, poucos objetos à direita, espaço vazio à esquerda; linha pequena em caixa alta cinza (`CURSO · DEGRAU N DE 4`), título em **serifa branca** em duas linhas, uma linha de apoio em sem serifa, `ARCKHÉ AI` com o ponto amarelo. **Sem letra grande amarela/dourada, sem brilho, sem neon, sem ícones de redes.** Texto legível na tela do notebook só se for correto; na dúvida, tela desfocada. Codex image_gen com a capa do Terminal anexada como referência de estilo.
 
 ## 6. Linha Banner (portal, eventos, guias)
 Dono: `gerar-banner.sh` + MEM/feedback_banner_estilo_live, feedback_banner_portal_limpo.
@@ -168,18 +168,18 @@ Dono: `gerar-banner.sh` + MEM/feedback_banner_estilo_live, feedback_banner_porta
 - **grade**: 6 cartões com objetos 3D dourados; faixa inferior escura com borda dourada. Grade liso só no Atendimento.
 - Dosagem (V8, 10/10/2026): **letras contidas** (branco + UMA palavra grande em dourado) e **cena com luz quente viva** (palco âmbar/laranja, bokeh, reflexos). Nunca tudo dourado, nunca cinza/monocromático.
 - Tipo: sans geométrica (Montserrat/Gotham), extra-bold × fina. **Nunca fonte de jogo** (condensada, inflada, cartunesca). (gerar-banner.sh:55,74) A thumb é a única exceçêo à condensada (V5).
-- Sem neon azul no título; INEMA.PRO nêo é referência. Azul (fundo e molduras) só no estilo **opus**, opcional, que só sai quando pedido (tema de IA/chip/modelo). live e grade nunca levam azul. (V6, 10/10/2026)
-- **Selo do nome em azul (V11, 13/10/2026):** quando o banner cita o projeto ou produto, o nome vai em azul `#3B9EFF` (Sora ExtraBold, brilho leve) acima do título, à esquerda (`gerar-banner.sh --selo "Nome"` ou `selo-banner.py`). Se o nome já está no título da imagem, nêo leva selo. É a única exceçêo ao "sem azul" do live/grade. Primeiro uso: área inemaSEO (eventos b5d7201, portal 4badec3).
-- Banner novo da home = estilo MODS (cena cinematográfica, título dourado enorme à esquerda).
+- Sem neon azul no título; ARCKHÉ.PRO nêo é referência. Azul (fundo e molduras) só no estilo **opus**, opcional, que só sai quando pedido (tema de IA/chip/modelo). live e grade nunca levam azul. (V6, 10/10/2026)
+- **Selo do nome em azul (V11, 13/10/2026):** quando o banner cita o projeto ou produto, o nome vai em azul `#3B9EFF` (Sora ExtraBold, brilho leve) acima do título, à esquerda (`gerar-banner.sh --selo "Nome"` ou `selo-banner.py`). Se o nome já está no título da imagem, nêo leva selo. É a única exceçêo ao "sem azul" do live/grade. Primeiro uso: área ARCKHÉSEO (eventos b5d7201, portal 4badec3).
+- Banner novo da home = estilo MODS (cena cARCKHÉtográfica, título dourado enorme à esquerda).
 
 ## 7. Linha Thumb (YouTube longo; short NêO leva thumb)
 Dono: `~/projetos/output/thumbviral/` + MEM/feedback_thumb_viral_codex.
-- Gancho de 2–4 palavras PT, caixa alta, palavra-chave em amarelo, sujeito grande com emoçêo, alto contraste, etiqueta "INEMA.CLUB".
+- Gancho de 2–4 palavras PT, caixa alta, palavra-chave em amarelo, sujeito grande com emoçêo, alto contraste, etiqueta "ARCKHÉ AI".
 - Estilo sorteado entre os 10 de `estilos.py`; nêo repetir o padrêo "texto branco+amarelo empilhado à esquerda".
 - Fonte condensada **pode** na thumb (estilo "manchete" e outros que pedirem): ela é exceçêo, porque disputa atençêo no feed em tamanho de selo. (V5, 10/10/2026)
 
 ## 8. Linha Vídeo
-Regras completas em `video/style.md` (padrêo INEMA preenchido) e `video/camera.md`.
+Regras completas em `video/style.md` (padrêo ARCKHÉ preenchido) e `video/camera.md`.
 - Legenda de reel: Montserrat Black, contorno preto 8px, palavra-chave amarelo `#FACC15` (V7, 10/10/2026; antes âmbar `#F5A623`), ≥ 64px (86px no empilhado). (MS spec-reel.md:60-64)
 - Paletas dos motores próprios (hoje no código, sem arquivo):
   - eventosextremospub `motor/mapa.html`: fundo `#05080c`, vermelho `#ff2a1f`, âmbar `#ffd23f`, azul `#5ec8ff`, Inter.

@@ -1,6 +1,6 @@
 # Página: 20 pontos antes de publicar
 
-Fonte: Claude Design Blueprint, hack 10/15 — "Pre-ship checklist: 20 points", derivado das 20 regras web do Power Design (github.com/ItsssssJack/power-design, MIT). Adaptado para guias, landings e cursos INEMA.
+Fonte: Claude Design Blueprint, hack 10/15 — "Pre-ship checklist: 20 points", derivado das 20 regras web do Power Design (github.com/ItsssssJack/power-design, MIT). Adaptado para guias, landings e cursos ARCKHÉ.
 
 Como usar: cole esta lista junto da página e peça sim/nêo para cada ponto, com prova (medida, print ou linha do código). Corrija todo "nêo" e rode de novo até os 20 serem sim.
 Script: `python3 checks/preship.py <pagina.html>` confere parte dos pontos 3, 16, 18, 19 e 20. Contraste, gosto e velocidade: olho, Lighthouse ou um segundo agente.
@@ -28,7 +28,7 @@ Script: `python3 checks/preship.py <pagina.html>` confere parte dos pontos 3, 16
 19. [ ] Formulários: rótulo visível em todo campo, tipo de input certo, erro na linha. Nenhum campo a mais.
 20. [ ] Camada de compartilhamento: título ≤ 60 caracteres, descriçêo ≤ 155, imagem 1200×630, theme-color e favicon.
 
-## Pontos só do INEMA (somar aos 20)
+## Pontos só do ARCKHÉ (somar aos 20)
 - [ ] PT, EN e ES publicados, com links de idioma funcionando e caminhos de imagem certos em `en/` e `es/` (`naturalWidth` > 0 no Playwright). (LESSONS 05/10)
 - [ ] Nenhum `[colchete]` de modelo sobrando: `grep -c "\[Nome\|\[Resultado" landing.html` = 0. (LESSONS 08/10)
 - [ ] Texto que a IA escreveu dentro das artes conferido letra a letra.

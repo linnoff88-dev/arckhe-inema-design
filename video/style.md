@@ -1,9 +1,9 @@
-# style.md — vídeo INEMA
+# style.md — vídeo ARCKHÉ
 
 Fonte do método: Claude Design Blueprint, hack 1 ("style.md" + "motion brief"). Os números abaixo sêo os que já estêo escritos no ecossistema (fonte entre parênteses).
 
 Dois usos:
-1. **Padrêo INEMA** (seções A e B): vale quando nêo há referência.
+1. **Padrêo ARCKHÉ** (seções A e B): vale quando nêo há referência.
 2. **A partir de uma referência** (seçêo C): copie o modelo para a pasta do vídeo e preencha a partir do vídeo que o Nei apontou. O estilo da referência entra; o conteúdo, logo e personagens dela nunca.
 
 MS = `~/.claude/skills/makeshorts`, EXV2 = `~/projetos/explicavideos/engine/v2/AUTHORING.md`.
@@ -44,7 +44,7 @@ MS = `~/.claude/skills/makeshorts`, EXV2 = `~/projetos/explicavideos/engine/v2/A
 
 ---
 
-## B. Short / reel 9:16 (makeshorts, reel-edita-inema, reelcomenta, cardshorts, eventosextremospub, curto do finviral)
+## B. Short / reel 9:16 (makeshorts, reel-edita-ARCKHÉ, reelcomenta, cardshorts, eventosextremospub, curto do finviral)
 
 ### Abertura
 - Frame 0 = capa completa: manchete de 3–6 palavras + visual do tema, visível em t=0, nada surgindo do vazio. (EXV2:109-112; MS spec-visual.md:27)
@@ -52,7 +52,7 @@ MS = `~/.claude/skills/makeshorts`, EXV2 = `~/projetos/explicavideos/engine/v2/A
 - Clima/notícia: data dd/mm/aaaa + número tipo "ATÉ 300 MM" com fonte no quadro 0. (MEM/feedback_eventos_extremos_abertura)
 - Teste: "eu pararia o dedo aqui?"
 - **reel7etapas (D9, 18/10/2026):** quadro 0 = GATILHO (medo, novidade ou provocaçêo) com fato/número e fonte, imagem do flagrante nítida (sem desfoque), luz dramática liberada no gancho; o ganho/alívio só a partir da etapa 4. Exceçêo à "capa = ganho" das outras linhas.
-- **reel7etapas (D10, 18/10/2026):** objetivo = público no inema.club; plano (público, ganho/dor/desejo, nota de potencial) antes da fala; rosto desde o quadro 0 em meia tela → PiP; ≥ 2 diagramas/visuais que ensinam; CTA "tá tudo no inema.club, ou me pede o link".
+- **reel7etapas (D10, 18/10/2026):** objetivo = público no ARCKHÉ AI; plano (público, ganho/dor/desejo, nota de potencial) antes da fala; rosto desde o quadro 0 em meia tela → PiP; ≥ 2 diagramas/visuais que ensinam; CTA "tá tudo no ARCKHÉ AI, ou me pede o link".
 - **r7ex e r7exp (D16, 21/10/2026):** o rosto ABRE em meia tela no quadro 0 — 9:16 metade de baixo (1080x960 em y 960) na parte 1; 16:9 metade direita até o fim da capa — e depois vai para o PiP, voltando à meia tela onde o plano pedir (`avatar: meia` na parte do r7ex). Título da capa no alto (9:16) ou à esquerda (16:9), fora do rosto.
 - **Reels 9:16 do r7exp (D17, 22/10/2026):** avatar no terço de baixo (1080x640 em y 1280) o reel inteiro; 2/3 de cima = título · explicativo · imagem de impacto. Quadro 0 = capa nos 2/3 de cima (imagem de impacto + título ≤ 4 palavras) até o fim da 1ª frase; legenda depois, no pé dos 2/3. O completo 16:9 do r7exp segue o D16.
 
@@ -70,7 +70,7 @@ MS = `~/.claude/skills/makeshorts`, EXV2 = `~/projetos/explicavideos/engine/v2/A
 
 ### Áudio
 - **Sem efeitos sonoros no meio** (D7, 15/10/2026): só voz + trilha baixa (`som_viral.py --sem-efeitos`).
-- Sem música de fundo em short didático. SFX só para marcar açêo/revelaçêo, vindos do inemavox. (spec-visual.md:57; RE 03-sfx-e-qc.md)
+- Sem música de fundo em short didático. SFX só para marcar açêo/revelaçêo, vindos do ARCKHÉvox. (spec-visual.md:57; RE 03-sfx-e-qc.md)
 - −14 LUFS ±1, true peak ≤ −1; 1080×1920, 30fps, h264/aac.
 
 ### Publicaçêo
@@ -80,7 +80,7 @@ MS = `~/.claude/skills/makeshorts`, EXV2 = `~/projetos/explicavideos/engine/v2/A
 
 ## C. Modelo para preencher a partir de uma referência
 
-Passos: baixar a referência (inemavox), tirar 1 quadro a cada 0,5s, preencher abaixo com números, propor 3 storyboards e PARAR para o Nei escolher.
+Passos: baixar a referência (ARCKHÉvox), tirar 1 quadro a cada 0,5s, preencher abaixo com números, propor 3 storyboards e PARAR para o Nei escolher.
 
 ```
 # style.md — o visual de [nome da referência]
@@ -129,5 +129,5 @@ Referência: [link]   Extraído em: [data]
 
 ## Presets do video-plan-editor (D4, 12/10/2026)
 - Os 5 presets (`acao`, `suave`, `promo`, `vendas`, `viral`) continuam como estêo e sêo escolha por vídeo; o ritmo do preset escolhido vale.
-- Sem preset escolhido, vale o padrêo INEMA: troca a cada 1,5–3 s no reel/short (D1).
+- Sem preset escolhido, vale o padrêo ARCKHÉ: troca a cada 1,5–3 s no reel/short (D1).
 - Regras que valem para TODO preset (vieram de reprovaçêo): zoom/punch nunca corta texto (D3); voz do Nei (D2); amarelo `#FACC15` (V7); `viral` só em 9:16, nunca em explicativo 16:9.
